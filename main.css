@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Potta One', cursive;
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F4FFFD;
+}
+
+.calculator{
+    flex: 0 0 95%;
+}
+
+.screen{
+    width: 100%;
+    font-size: 7rem;
+    padding: 0.5rem;
+    padding-left: 3rem;
+    background: #352D39;
+    color: white;
+    border: none;
+}
+
+.buttons{
+    display: flex;
+    flex-wrap: wrap;
+    transition: all 0.5s linear;
+}
+
+button{
+    flex:0 0 25%;
+    border: none;
+    padding: 0.25rem 0;
+    transition: all 0.5s ease;
+}
+
+button:hover{
+    background: #B1EDE8;
+}
+
+button:active{
+    transition: all 0.05s ease;
+    background: #a3d9d4;
+}
+
+.btn-yellow{
+    background: #FF6978 ;
+}
+
+.btn-grey{
+    background: #FFFCF9;
+}
+
+.btn, .btn-equal, .btn-clear{
+    font-size: 4rem;
+}
+.btn-equal{
+    background: #8DFFCD;
+}
+.btn-clear{
+    background: #ED254E;
+}
